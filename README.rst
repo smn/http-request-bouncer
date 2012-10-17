@@ -1,6 +1,13 @@
 http-request-bouncer
 ====================
 
+--------------------------------------------------------------------------------
+
+**NOTE:** This project has been *deprecated* in favour of the simpler approach 
+of `Device Proxy <https://github.com/smn/device-proxy>`_
+
+--------------------------------------------------------------------------------
+
 Inspects incoming HTTP requests adds some HTTP headers and bounces it
 back to HAProxy for rerouting. Useful for things like load balancing specific
 User-Agents to specific HAProxy backends.
